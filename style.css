@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.holesCont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.hole {
+  background-color:#fff;
+  border:2px solid brown;    
+  height:200px;
+  width:200px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+.mole {
+    width: 200px;
+    height: 200px;
+    background-image: url('./mole.jpeg');
+    background-size: contain;
+    animation: appear 2s;
+}
+
+
+
